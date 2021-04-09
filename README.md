@@ -33,7 +33,7 @@
 - Operações em SQL com procedures
 - Documentação (pode alterar o readme.md padrão)
 
-## Bonus
+## Bônus
 
 - Animações
 - Controle de cache
