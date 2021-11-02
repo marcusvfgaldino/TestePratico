@@ -1,9 +1,3 @@
-const Home = () => {
-    return (
-        <div>
-            Home
-        </div>
-    );
-}
+import Home from './Home/index';
 
 export default Home;

@@ -1,0 +1,19 @@
+/**** Import base font ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/**** Define base colors ****/ 
+
+$primary_color: #F33F6F;
+$secundary_color: #FEE8B7;
+$tertiary_color: #F89D28;
+$quaternary_color: #FF7045;
+$quintenary_color: #FEDA14;
+
+/**** Define global styles ****/
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
