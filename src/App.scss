@@ -1,6 +1,7 @@
 /**** Import base font ****/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 /**** Define base colors ****/ 
 
@@ -22,15 +23,37 @@ body {
 .login__section {
     background-color: $secundary_color;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    .box__login {
-        background-color: $tertiary_color;
+    h1 {
+        margin: 0;
+        text-align: center;
+        padding: 45px 0 30px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 3.5em;
+        font-weight: bold;
+        color: $quaternary_color;
+    }
+
+    .box__login, .login__logo {
         margin: 0 auto;
         width: 50vh;
+    }
+
+    .login__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        img {
+            width: 20%;
+        }
+    }
+
+    .box__login {
+        background-color: $tertiary_color;
         padding: 15px;
         border-radius: 5px;
         box-shadow: 5px 5px 10px #e1e1e1;
