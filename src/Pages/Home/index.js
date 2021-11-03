@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import './global.scss';
+import { Link } from "react-router-dom"
 
 const Home = () => {
     return (

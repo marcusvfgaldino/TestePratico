@@ -17,3 +17,64 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/**** Login styles ****/
+
+.login__section {
+    background-color: $secundary_color;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .box__login {
+        background-color: $tertiary_color;
+        margin: 0 auto;
+        width: 50vh;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px #e1e1e1;
+
+        .login__label {
+            text-align: center;
+        }
+
+        .login__label, .login__input {
+            margin-bottom: 10px;
+        }
+
+        label, input {
+            width: 98%;
+        }
+
+        label {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        input {
+            height: 30px;
+            border: 1px solid #e1e1e1;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .btn_login {
+            display: block;
+            margin: 0 auto;
+            background: $primary_color;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            width: 100px;
+            height: 40px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $quaternary_color;
+            }
+        }
+    }
+}
+
+

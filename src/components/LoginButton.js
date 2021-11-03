@@ -1,6 +1,6 @@
 const LoginButton = () => {
     return (
-        <button>Entrar</button>
+        <button className="btn_login">Entrar</button>
     );
 }
 

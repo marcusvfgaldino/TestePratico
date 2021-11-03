@@ -1,6 +1,5 @@
 import LoginButton from "../../components/LoginButton";
 import LoginForm from "../../components/LoginForm";
-import './global.scss';
 
 const Login = () => {
     return (
