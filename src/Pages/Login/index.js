@@ -1,5 +1,4 @@
 import React from "react";
-import LoginButton from "../../components/LoginButton";
 import LoginForm from "../../components/LoginForm";
 import CalendarLogo from "../../logo.png";
 
@@ -17,7 +16,6 @@ const Login = () => {
             </div>
             <div className="box__login">
                 <LoginForm />
-                <LoginButton />
             </div>
         </section>
     );

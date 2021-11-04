@@ -58,6 +58,10 @@ body {
         border-radius: 5px;
         box-shadow: 5px 5px 10px #e1e1e1;
 
+        a {
+            text-decoration: none;
+        }
+
         .login__label {
             text-align: center;
         }
