@@ -1,6 +1,6 @@
 import React, {useState, useContext} from "react";
 import { useHistory } from "react-router";
-import Context from "./Context";
+import Context from "../Context/Context"; 
 
 const LoginForm = () => {
 
