@@ -104,4 +104,31 @@ body {
     }
 }
 
+/**** Header styles ****/
+
+header {
+    background-color: $secundary_color;
+    display: flex;
+    padding: 10px 20px;
+
+    img {
+        width: 50px;
+    }
+
+    .header__Clock, .header__user {
+        font-weight: bold;
+        padding: 15px 0;
+    }
+
+    .header__Clock {
+        text-align: center;
+        width: 175vh;
+        color: $quaternary_color;
+        font-size: 1.3em;
+    }
+
+    .header__user {
+        float: right;
+    }
+}
 

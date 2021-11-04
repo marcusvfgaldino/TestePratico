@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import Header from "../../components/Header/Header";
+import Search from "../../components/Search/Search";
 
 const Home = () => {
 
@@ -9,7 +10,17 @@ const Home = () => {
 
     return (
         <div>
-            <Link to="/login">Login</Link>
+            <Header />
+            <Search />
+            <div className="title__comp">
+                <h2>Compromissos de hoje</h2>
+            </div>
+            <div className="title__comp">
+                <h2>Compromissos próximos</h2>
+            </div>
+            <div className="title__comp">
+                <h2>Compromissos passados</h2>
+            </div>
         </div>
     );
 }
